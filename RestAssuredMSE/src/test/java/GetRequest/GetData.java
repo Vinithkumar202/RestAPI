@@ -57,7 +57,7 @@ public class GetData {
 	                //JSONObject obj = (JSONObject) data_obj.get("data");
 
 	                //Get the required data using its key
-	                System.out.println(data_obj.toString());
+	                //System.out.println(data_obj.toString());
 
 	                JSONArray arr = (JSONArray) data_obj.get("data");
 
@@ -67,9 +67,10 @@ public class GetData {
 	          	                    		
 	                    	JSONObject res = (JSONObject) new_obj.get("weather");
 	                    	
+	                    	System.out.println("weather:\n " +res.toString());
 	                    	if(new_obj.get("country_code").equals("US")) {
 	                    		                    	 
-	                        System.out.println("weather: " + res.get("description"));
+	                        System.out.println("weather description: " + res.get("description"));
 	                        break;
 	                    	
 	                    	} 	
