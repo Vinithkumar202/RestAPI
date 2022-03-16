@@ -5,8 +5,7 @@
     <classes>
       <class name="GetRequest.GetData">
         <methods>
-          <include name="testResponseCode"/>
-          <include name="testBody"/>
+          <include name="getAirquality_AC3"/>
         </methods>
       </class> <!-- GetRequest.GetData -->
     </classes>
