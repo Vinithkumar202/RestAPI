@@ -1,59 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-16T10:29:07 IST" name="Default suite" finished-at="2022-03-16T10:29:28 IST" duration-ms="20758">
+  <suite started-at="2022-03-22T10:18:15 IST" name="Suite" finished-at="2022-03-22T10:18:20 IST" duration-ms="4531">
     <groups>
     </groups>
-    <test started-at="2022-03-16T10:29:07 IST" name="Default test" finished-at="2022-03-16T10:29:28 IST" duration-ms="20758">
-      <class name="GetRequest.GetData">
-        <test-method signature="getAirquality_AC3()[pri:0, instance:GetRequest.GetData@1a4013]" started-at="2022-03-16T10:29:07 IST" name="getAirquality_AC3" finished-at="2022-03-16T10:29:22 IST" duration-ms="14247" status="FAIL">
-          <exception class="junit.framework.AssertionFailedError">
-            <message>
-              <![CDATA[expected:<{"no2":24.375,"mold_level":0,"o3":46,"pm25":20.4,"predominant_pollen_type":"Trees","so2":0,"pollen_level_grass":1,"aqi":68,"pm10":29,"co":446.55,"pollen_level_tree":3,"pollen_level_weed":1}> but was:<nullschema.json>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError: expected:<{"no2":24.375,"mold_level":0,"o3":46,"pm25":20.4,"predominant_pollen_type":"Trees","so2":0,"pollen_level_grass":1,"aqi":68,"pm10":29,"co":446.55,"pollen_level_tree":3,"pollen_level_weed":1}> but was:<nullschema.json>
-at junit.framework.Assert.fail(Assert.java:50)
-at junit.framework.Assert.failNotEquals(Assert.java:287)
-at junit.framework.Assert.assertEquals(Assert.java:67)
-at junit.framework.Assert.assertEquals(Assert.java:74)
-at GetRequest.GetData.getAirquality_AC3(GetData.java:154)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.AssertionFailedError -->
+    <test started-at="2022-03-22T10:18:15 IST" name="Test" finished-at="2022-03-22T10:18:20 IST" duration-ms="4531">
+      <class name="GetRequest.TechTest">
+        <test-method signature="getAirquality_AC3()[pri:0, instance:GetRequest.TechTest@1613674b]" started-at="2022-03-22T10:18:15 IST" name="getAirquality_AC3" finished-at="2022-03-22T10:18:18 IST" duration-ms="2427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAirquality_AC3 -->
-      </class> <!-- GetRequest.GetData -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method signature="getWeather_Cities_AC2()[pri:0, instance:GetRequest.TechTest@1613674b]" started-at="2022-03-22T10:18:18 IST" name="getWeather_Cities_AC2" finished-at="2022-03-22T10:18:18 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeather_Cities_AC2 -->
+        <test-method signature="getWeather_Lat_Lon_AC1()[pri:0, instance:GetRequest.TechTest@1613674b]" started-at="2022-03-22T10:18:18 IST" name="getWeather_Lat_Lon_AC1" finished-at="2022-03-22T10:18:20 IST" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeather_Lat_Lon_AC1 -->
+      </class> <!-- GetRequest.TechTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
